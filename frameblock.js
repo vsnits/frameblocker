@@ -95,4 +95,5 @@
              } else if(includes_domain == true) { console.log("Good website!") }
            setTimeout(function() { if(block.target == true) { block() } }, 900) // repeat every 900 ms
         }; block( includesDomain(trusted) ) // finally call the function
+
     /**/
