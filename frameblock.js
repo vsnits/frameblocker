@@ -96,9 +96,9 @@
                     if(filter(things[i])) { blocked.push(things[i]); things[i].parentElement.removeChild(things[i]) }
                     }
                 }
-            for(var i = 0; i < methods.length; i++) { // finally go through the all methods
+            for(var i = 0; i < methods.length; i++) {
                 remove(methods[i].tag, methods[i].filter) 
-                }; if(blocked.length) { console.log("frames blocked > ", blocked) } // and.. output the removed items
+                }; if(blocked.length) { console.log("frames blocked > ", blocked) }
              } else if(includes_domain == true) { console.log("Good website!") } // in this case repetition will stop
            setTimeout(function() { if(block.target == true) { block() } }, 900) // repeat action every 900 ms
         }; block( includesDomain(trusted) ) // finally call the function
