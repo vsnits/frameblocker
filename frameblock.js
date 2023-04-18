@@ -55,7 +55,7 @@
                     if(group[place] == e) { break }
                     else { place++ }
                     } // the position will be defined in all cases, as we know that group contains all children of `hand`
-                hand.removeChild(e) // now remove original element and replace with its clone
+                hand.removeChild(e) // now remove original element and than (later) replace with its clone
                 /* 
                    Element also removed from its group, so (place+1) become just (place)
                  */
