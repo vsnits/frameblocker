@@ -1,6 +1,6 @@
 
     /* FrameBlock 1.2.4 */
-    /* February 13, vsnits 2023 */
+    /* March 18, vsnits 2023 */
 
     let trusted = ["&google.com", "github.com", "lichess.org", "&youtube.com", "&wikipedia.org"]
     function includesDomain(list) {
